@@ -1,29 +1,37 @@
 # Coworker in Ears
 
-耳机连接式的语音记忆与免手持数字员工项目。
+Hands-free, earbud-first memory capture and creative copiloting for Android.
 
-## What We Are Building
+## Open The Showcase
 
-首期只做 `Android`，只支持 `Huawei`、`Lenovo`、`Oppo`、`Honor` 耳机。
+**Rendered promo page:** [Open the interactive showcase](https://htmlpreview.github.io/?https://raw.githubusercontent.com/XuYuanhao5212/Coworker-in-Ears/main/site/index.html)
 
-核心体验是：
+**Repository file:** [site/index.html](site/index.html)
 
-- 耳机按键或手机快捷操作触发录音
-- 自定义触发词在会话内触发录音
-- 录音后转写、摘要、结构化
-- 记忆以 Markdown 作为 source of truth 存储
-- 记忆可检索、可删除、可导出
+If you are reviewing the repo on GitHub, use the rendered promo page link above first. It opens the actual landing page experience instead of the raw HTML source.
+
+## What This Product Does
+
+Coworker in Ears turns supported earbuds into a lightweight creative coworker that can help you capture ideas anywhere:
+
+- trigger capture from earbud media buttons
+- trigger capture from phone shortcuts
+- trigger capture from a session-scoped custom hotword
+- structure spoken notes into Markdown memories
+- keep storage local-first and user-controlled
+
+## Support Scope
+
+- Android MVP only
+- Phase 1 supported earbud brands: Huawei, Lenovo, OPPO, Honor
 
 ## Project Docs
 
-- [产品范围与 MVP 边界](docs/product-scope.md)
-- [Markdown 记忆格式设计](docs/memory-format.md)
+- [Product scope and MVP boundary](docs/product-scope.md)
+- [Markdown memory format](docs/memory-format.md)
 
-## Current Principles
+## Repo Map
 
-- 默认本地优先
-- 默认会话级触发词
-- 默认用户可控
-- 默认不做 24/7 常驻监听
-- 默认只允许最小权限工具调用
-- 默认保留审计和删除能力
+- [Interactive showcase page](site/index.html)
+- [Android app code](app/src/main/java/com/coworkerinears/app)
+- [Cloud environment setup notes](docs/codex-cloud-environment-template.md)
