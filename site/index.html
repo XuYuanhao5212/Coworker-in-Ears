@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coworker in Ears | Ear-first Memory OS</title>
+  <meta
+    name="description"
+    content="Coworker in Ears 是一个以耳机为入口的语音记忆与数字员工产品展示页，面向评委、投资人和合作伙伴展示产品愿景、当前 MVP、未来路线与增长想象空间。">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body id="top">
+  <div class="grain"></div>
+  <header class="hero shell">
+    <nav class="topbar">
+      <div class="brand-lockup">
+        <span class="brand-mark">CE</span>
+        <div>
+          <p class="eyebrow">Coworker in Ears</p>
+          <p class="sub-eyebrow">Ear-first Memory OS</p>
+        </div>
+      </div>
+      <div class="topbar-links">
+        <a href="#demo">交互演示</a>
+        <a href="#economics">投资逻辑</a>
+        <a href="#roadmap">未来路线</a>
+      </div>
+    </nav>
+
+    <section class="hero-grid">
+      <div class="hero-copy">
+        <p class="section-kicker">评委 30 秒就能看懂的版本</p>
+        <h1>把耳机从“播放设备”变成<br>用户的第二工作记忆。</h1>
+        <p class="hero-summary">
+          Coworker in Ears 不只是录音转写。
+          它是一个随时随地、免手持、可持续积累的个人记忆与执行入口。
+          先从四个品牌耳机切入，先做 Android MVP，先把“值得天天用”做出来，
+          再把它扩展成跨场景的耳机数字员工。
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#demo">立即看交互演示</a>
+          <a class="button button-secondary" href="#investment-score">看评委打分模拟</a>
+        </div>
+
+        <div class="value-ribbon">
+          <div>
+            <span class="ribbon-label">现在可落地</span>
+            <strong>Android + 4 品牌耳机 + Markdown 记忆闭环</strong>
+          </div>
+          <div>
+            <span class="ribbon-label">未来想象空间</span>
+            <strong>随身创作助手 + 会议代理 + 个人知识操作系统</strong>
+          </div>
+        </div>
+      </div>
+
+      <aside class="hero-stage">
+        <div class="stage-card stage-card-main">
+          <p class="card-kicker">Why now</p>
+          <h2>AI 助手越来越多，真正“被留在身边”的入口却很少。</h2>
+          <ul class="stage-bullets">
+            <li>手机输入太重，语音输入太散，记忆数据太碎。</li>
+            <li>耳机是最高频、最低摩擦、最容易形成日常习惯的入口。</li>
+            <li>先满足“记录与回想”，再扩展到“创作与执行”，增长更自然。</li>
+          </ul>
+        </div>
+
+        <div class="stat-cluster">
+          <article class="metric-card">
+            <span>MVP readiness</span>
+            <strong>82%</strong>
+            <p>本地构建、单测、Debug APK 已通过验证</p>
+          </article>
+          <article class="metric-card">
+            <span>Entry friction</span>
+            <strong>极低</strong>
+            <p>耳机 + 语音，比打开 App 更接近日常动作</p>
+          </article>
+          <article class="metric-card">
+            <span>Moat shape</span>
+            <strong>记忆闭环</strong>
+            <p>越用越懂你，越懂你越离不开</p>
+          </article>
+        </div>
+      </aside>
+    </section>
+  </header>
+
+  <main class="shell">
+    <section class="section split-section" id="psychology">
+      <div class="section-head">
+        <p class="section-kicker">心理学设计</p>
+        <h2>这不是“又一个 AI 工具”，而是一种更容易被长期使用的行为设计。</h2>
+      </div>
+
+      <div class="split-panels">
+        <article class="insight-panel">
+          <h3>降低认知负担</h3>
+          <p>观众不需要先理解一堆技术名词，只需要理解一个动作：戴上耳机，说一句话，记住一件事。</p>
+        </article>
+        <article class="insight-panel">
+          <h3>强化控制感</h3>
+          <p>不是黑盒常驻监听，而是从手动触发与会话级触发词开始，先让用户和监管都放心。</p>
+        </article>
+        <article class="insight-panel">
+          <h3>放大损失厌恶</h3>
+          <p>一旦用户开始把灵感、会议、待办、创作草稿都交给 Coworker，再回到“靠脑子记”会明显不适。</p>
+        </article>
+        <article class="insight-panel">
+          <h3>制造正向强化</h3>
+          <p>每一次语音记录都沉淀为可搜索、可回放、可继续创作的资产，形成日常微奖励。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="demo">
+      <div class="section-head">
+        <p class="section-kicker">交互演示</p>
+        <h2>同一个产品，在不同场景里都应该一眼看出“为什么有用”。</h2>
+        <p class="section-copy">切换场景，右侧会同步展示用户动作、记忆结果与业务价值。</p>
+      </div>
+
+      <div class="demo-layout">
+        <div class="scenario-tabs" role="tablist" aria-label="场景切换">
+          <button class="scenario-tab is-active" data-scenario="creator" role="tab" aria-selected="true">创作者</button>
+          <button class="scenario-tab" data-scenario="founder" role="tab" aria-selected="false">创业者</button>
+          <button class="scenario-tab" data-scenario="sales" role="tab" aria-selected="false">销售/顾问</button>
+          <button class="scenario-tab" data-scenario="student" role="tab" aria-selected="false">学习者</button>
+        </div>
+
+        <div class="demo-stage">
+          <article class="demo-phone">
+            <div class="phone-top">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+            <div class="phone-body">
+              <p class="demo-mode">当前模式</p>
+              <h3 id="scenario-title">创作者：灵感不再逃走</h3>
+              <p id="scenario-line">戴着耳机走路时，说一句“记一下：把播客里的那段观点写成短视频脚本”。</p>
+
+              <div class="timeline-card">
+                <span>触发</span>
+                <strong id="scenario-trigger">耳机按键 / 自定义会话级触发词</strong>
+              </div>
+              <div class="timeline-card">
+                <span>系统反馈</span>
+                <strong id="scenario-feedback">立即落成一条 Markdown 记忆，并自动抽出创作任务。</strong>
+              </div>
+              <div class="timeline-card">
+                <span>长期价值</span>
+                <strong id="scenario-outcome">灵感不再只是“记住了”，而是自动进入创作工作流。</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="memory-preview">
+            <div class="memory-head">
+              <p>Archive preview</p>
+              <span class="status-chip">可搜索 · 可续写 · 可导出</span>
+            </div>
+            <pre id="memory-output">---
+id: mem_creator_001
+mode: manual
+title: 播客观点短视频脚本
+tags: [creator, script, inspiration]
+---
+
+## Summary
+把播客中的核心观点改写成 60 秒短视频脚本。
+
+## Action Items
+- [ ] 写 3 个开头钩子
+- [ ] 补一个真实案例
+- [ ] 今晚回家扩写成口播稿</pre>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="economics">
+      <div class="section-head">
+        <p class="section-kicker">增长与商业化</p>
+        <h2>先做“每天都会有人会用”，再做“每个高价值场景都离不开”。</h2>
+      </div>
+
+      <div class="flywheel">
+        <article class="flywheel-node">
+          <span>1</span>
+          <h3>低摩擦入口</h3>
+          <p>耳机比打开 App 更接近日常动作，容易形成使用起点。</p>
+        </article>
+        <article class="flywheel-node">
+          <span>2</span>
+          <h3>记忆资产沉淀</h3>
+          <p>每次记录都变成未来可调用的个人资产，而不是一次性聊天记录。</p>
+        </article>
+        <article class="flywheel-node">
+          <span>3</span>
+          <h3>检索与创作回流</h3>
+          <p>用户回来搜索、续写、总结，使用频率自然提高。</p>
+        </article>
+        <article class="flywheel-node">
+          <span>4</span>
+          <h3>场景扩张</h3>
+          <p>从备忘、会议、创作，扩到销售、教育、企业协同，ARPU 拉高。</p>
+        </article>
+      </div>
+
+      <div class="economics-grid">
+        <article class="economics-card">
+          <p class="card-kicker">先抓住谁</p>
+          <h3>最容易高频使用的人</h3>
+          <p>创作者、创业者、销售顾问、需要频繁移动思考的人，是最容易把耳机记忆用成习惯的一群人。</p>
+        </article>
+        <article class="economics-card">
+          <p class="card-kicker">为什么会留存</p>
+          <h3>因为它会越用越值钱</h3>
+          <p>不是“试一次就结束”的工具，而是个人记忆库逐渐积累、价值不断复利的产品。</p>
+        </article>
+        <article class="economics-card">
+          <p class="card-kicker">为什么值得投</p>
+          <h3>入口小，平台潜力大</h3>
+          <p>先做耳机入口，再做记忆 OS，再做可插拔执行层。路径清晰，天花板足够高。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="investment-score">
+      <div class="section-head">
+        <p class="section-kicker">评委打分模拟器</p>
+        <h2>如果你认可这三件事，这个项目就不只是“能做”，而是“该尽快投”。</h2>
+      </div>
+
+      <div class="score-layout">
+        <div class="score-controls">
+          <label>
+            <span>你相信耳机会成为 AI 的高频入口</span>
+            <input type="range" min="0" max="100" value="82" data-weight="0.34" data-score>
+          </label>
+          <label>
+            <span>你相信“记忆资产”比一次性聊天更容易形成留存</span>
+            <input type="range" min="0" max="100" value="88" data-weight="0.36" data-score>
+          </label>
+          <label>
+            <span>你相信先做 MVP，再扩平台的路径更现实</span>
+            <input type="range" min="0" max="100" value="79" data-weight="0.30" data-score>
+          </label>
+        </div>
+
+        <div class="score-output">
+          <div class="score-ring">
+            <strong id="score-value">84</strong>
+            <span>/100</span>
+          </div>
+          <p id="score-summary">
+            这是一个“现在就值得继续加码”的项目：MVP 边界清楚，未来想象空间足够大。
+          </p>
+          <div class="score-tags" id="score-tags">
+            <span>高频入口</span>
+            <span>高留存潜力</span>
+            <span>平台延展性</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="roadmap">
+      <div class="section-head">
+        <p class="section-kicker">路线图</p>
+        <h2>先把今天能交付的做到极致，再把未来能扩张的留出空间。</h2>
+      </div>
+
+      <div class="roadmap">
+        <article class="roadmap-step is-now">
+          <span>现在</span>
+          <h3>Android MVP</h3>
+          <p>4 品牌耳机、手动模式、会话级触发词、Markdown 记忆、Debug APK。</p>
+        </article>
+        <article class="roadmap-step">
+          <span>接下来</span>
+          <h3>真实录音与耳机联调</h3>
+          <p>蓝牙连接态监听、媒体按键触发、真实录音链路、设备兼容性验证。</p>
+        </article>
+        <article class="roadmap-step">
+          <span>中期</span>
+          <h3>场景级陪伴与企业版本</h3>
+          <p>会议、通勤、拜访场景模板化；加强权限、审计、导出与组织策略。</p>
+        </article>
+        <article class="roadmap-step">
+          <span>未来</span>
+          <h3>个人记忆 OS</h3>
+          <p>跨设备、跨场景、跨工具的耳机数字员工，成为真正的随身创作与执行层。</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer shell">
+    <div>
+      <p class="section-kicker">一句话结论</p>
+      <h2>先投“每天都会有人用”的入口，再投“未来会变成平台”的复利资产。</h2>
+    </div>
+    <a class="button button-primary" href="#top">回到顶部</a>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>

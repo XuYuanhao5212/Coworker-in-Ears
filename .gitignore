@@ -1,0 +1,24 @@
+.gradle/
+.gradle-user/
+.tools/
+.android-home/
+.idea/
+local.properties
+build/
+captures/
+*.iml
+*.log
+
+app/build/
+
+# Android / IntelliJ generated files
+.DS_Store
+Thumbs.db
+
+# Keystore / signing
+*.jks
+*.keystore
+
+# Kotlin / Java
+out/
+bin/
